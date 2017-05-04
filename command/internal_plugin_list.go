@@ -38,6 +38,7 @@ import (
 	icinga2provider "github.com/hashicorp/terraform/builtin/providers/icinga2"
 	ignitionprovider "github.com/hashicorp/terraform/builtin/providers/ignition"
 	influxdbprovider "github.com/hashicorp/terraform/builtin/providers/influxdb"
+	kafkaprovider "github.com/hashicorp/terraform/builtin/providers/kafka"
 	kubernetesprovider "github.com/hashicorp/terraform/builtin/providers/kubernetes"
 	libratoprovider "github.com/hashicorp/terraform/builtin/providers/librato"
 	localprovider "github.com/hashicorp/terraform/builtin/providers/local"
@@ -118,6 +119,7 @@ var InternalProviders = map[string]plugin.ProviderFunc{
 	"icinga2":      icinga2provider.Provider,
 	"ignition":     ignitionprovider.Provider,
 	"influxdb":     influxdbprovider.Provider,
+	"kafka":        kafkaprovider.Provider,
 	"kubernetes":   kubernetesprovider.Provider,
 	"librato":      libratoprovider.Provider,
 	"local":        localprovider.Provider,

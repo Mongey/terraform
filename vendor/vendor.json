@@ -417,6 +417,14 @@
 			"revisionTime": "2016-07-26T15:08:25Z"
 		},
 		{
+			"checksumSHA1": "8gbW/F83B29GRFVv6GenOTuXwdA=",
+			"origin": "github.com/raisemarketplace/sarama",
+			"path": "github.com/Shopify/sarama",
+			"revision": "20fe3a63fae52177234ea92ff76315fefaf8fe18",
+			"revisionTime": "2017-03-27T16:03:15Z",
+			"version": "20fe3a63fae52177234ea92ff76315fefaf8fe18"
+		},
+		{
 			"checksumSHA1": "ly9VLPE9GKo2U7mnbZyjb2LDQ3w=",
 			"path": "github.com/Unknwon/com",
 			"revision": "28b053d5a2923b87ce8c5a08f3af779894a72758",
@@ -1441,6 +1449,24 @@
 			"revision": "025617847eb2cf9bd1d851bc3b22ed28e6245ce5"
 		},
 		{
+			"checksumSHA1": "y2Kh4iPlgCPXSGTCcFpzePYdzzg=",
+			"path": "github.com/eapache/go-resiliency/breaker",
+			"revision": "b86b1ec0dd4209a588dc1285cdd471e73525c0b3",
+			"revisionTime": "2016-01-04T19:15:39Z"
+		},
+		{
+			"checksumSHA1": "WHl96RVZlOOdF4Lb1OOadMpw8ls=",
+			"path": "github.com/eapache/go-xerial-snappy",
+			"revision": "bb955e01b9346ac19dc29eb16586c90ded99a98c",
+			"revisionTime": "2016-06-09T14:24:08Z"
+		},
+		{
+			"checksumSHA1": "oCCs6kDanizatplM5e/hX76busE=",
+			"path": "github.com/eapache/queue",
+			"revision": "44cc805cf13205b55f69e14bcb69867d1ae92f98",
+			"revisionTime": "2016-08-05T00:47:13Z"
+		},
+		{
 			"checksumSHA1": "C0xVFfC4PLAx0WKgeDk7fQdj9NU=",
 			"path": "github.com/emicklei/go-restful",
 			"revision": "cf834cf8da5b681af81bde6fa32304e6ce8eec71",
@@ -1566,6 +1592,12 @@
 			"path": "github.com/golang/protobuf/proto",
 			"revision": "8ee79997227bf9b34611aee7946ae64735e6fd93",
 			"revisionTime": "2016-11-17T03:31:26Z"
+		},
+		{
+			"checksumSHA1": "zdvyL+0ledEvL1R7gAq4Qbop/C4=",
+			"path": "github.com/golang/snappy",
+			"revision": "553a641470496b2327abcac10b36396bd98e45c9",
+			"revisionTime": "2017-02-15T23:32:05Z"
 		},
 		{
 			"checksumSHA1": "nu3W9toub02L8S239VzXF+pevWM=",
@@ -2426,6 +2458,12 @@
 			"revisionTime": "2016-10-04T15:35:44Z"
 		},
 		{
+			"checksumSHA1": "BM6ZlNJmtKy3GBoWwg2X55gnZ4A=",
+			"path": "github.com/klauspost/crc32",
+			"revision": "1bab8b35b6bb565f92cbc97939610af9369f942a",
+			"revisionTime": "2017-02-10T14:05:23Z"
+		},
+		{
 			"checksumSHA1": "tw3ocqSpa9ikzUV6qhcKBAAO6WU=",
 			"path": "github.com/kolo/xmlrpc",
 			"revision": "0826b98aaa29c0766956cb40d45cf7482a597671"
@@ -2789,6 +2827,18 @@
 			"revisionTime": "2015-10-22T18:22:18Z"
 		},
 		{
+			"checksumSHA1": "WmrPO1ovmQ7t7hs9yZGbr2SAoM4=",
+			"path": "github.com/pierrec/lz4",
+			"revision": "f5b77fd73d83122495309c0f459b810f83cc291f",
+			"revisionTime": "2017-03-31T16:49:28Z"
+		},
+		{
+			"checksumSHA1": "IT4sX58d+e8osXHV5U6YCSdB/uE=",
+			"path": "github.com/pierrec/xxHash/xxHash32",
+			"revision": "5a004441f897722c627870a981d02b29924215fa",
+			"revisionTime": "2016-01-12T16:53:51Z"
+		},
+		{
 			"checksumSHA1": "ynJSWoF6v+3zMnh9R0QmmG6iGV8=",
 			"comment": "v0.3.0",
 			"path": "github.com/pkg/errors",
@@ -2844,6 +2894,12 @@
 			"revisionTime": "2015-09-07T02:38:54Z"
 		},
 		{
+			"checksumSHA1": "l/CwfTUgSGlhHFuk41z2ajL6xUc=",
+			"path": "github.com/raisemarketplace/sarama",
+			"revision": "20fe3a63fae52177234ea92ff76315fefaf8fe18",
+			"revisionTime": "2017-03-27T16:03:15Z"
+		},
+		{
 			"checksumSHA1": "qn7N2kqSpKKi3YglZNyoQxp4aKs=",
 			"path": "github.com/rancher/go-rancher/client",
 			"revision": "bdb84801f2cf82be73e210ff586c531b07c83c42",
@@ -2854,6 +2910,12 @@
 			"path": "github.com/raphink/go-rancher/catalog",
 			"revision": "49b8414f0a18a3a8054adda704eddddbbfd6fbe2",
 			"revisionTime": "2016-09-28T08:39:49Z"
+		},
+		{
+			"checksumSHA1": "UfwH6L6mvyFHSX7vXhAZEwgus+A=",
+			"path": "github.com/rcrowley/go-metrics",
+			"revision": "1f30fe9094a513ce4c700b9a54458bbb0c96996c",
+			"revisionTime": "2016-11-28T21:05:44Z"
 		},
 		{
 			"checksumSHA1": "Yqr9OQ7AuIB1N0HMbSxqEoVQG+k=",

@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/vault/api"
 )
 
-func TestResourceGenericSecret(t *testing.T) {
+func TestTopic(t *testing.T) {
 	r.Test(t, r.TestCase{
 		Providers: testProviders,
 		PreCheck:  func() { testAccPreCheck(t) },
