@@ -1442,11 +1442,20 @@ func TestInterpolateFuncJSONEncode(t *testing.T) {
 				"foo":     "bar",
 				"ba \n z": "q\\x",
 			}),
+			"multiTypeMap": interfaceToVariableSwallowError(map[string]interface{}{
+				"foo": "bar",
+				"int": 0,
+			}),
 			"emptymap":   interfaceToVariableSwallowError(map[string]string{}),
 			"nestedlist": interfaceToVariableSwallowError([][]string{{"foo"}}),
 			"nestedmap":  interfaceToVariableSwallowError(map[string][]string{"foo": {"bar"}}),
 		},
 		Cases: []testFunctionCase{
+			{
+				`${jsonencode(multiTypeMap)}`,
+				`{"foo":"bar","int":0}`,
+				false,
+			},
 			{
 				`${jsonencode("test")}`,
 				`"test"`,
